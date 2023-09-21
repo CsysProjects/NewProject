@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('content')
-    <div class="sub-bnr">
+    <div class="sub-bnr-contact">
         <div class="position-center-center " style="left: 50%">
             <div class="container"> <img src="asset/images/sub-bnr-hr-up-contact.png" alt="">
                 <h4>Keep In Touch</h4>

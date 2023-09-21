@@ -4,235 +4,73 @@
 
 
 @section('content')
-    <div class="home-slider section">
-        <!-- Slider Loader -->
-        <div id="loader" class="hom-slie">
-            <div class="tp-loader spinner0"> <span class="dot1"></span> <span class="dot2"></span> <span
-                    class="bounce1"></span> <span class="bounce2"></span> <span class="bounce3"></span> </div>
-        </div>
-
-        <!-- SLIDE Start -->
-        <div class="tp-banner-container">
-            <div class="tp-banner">
-                <ul>
-
-                    <!-- SLIDE  -->
-                    <li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off"
-                        data-thumb="asset/images/safety1.jpg">
-                        <!-- div IMAGE -->
-                        <img src="asset/images/safety1.jpg" alt="slider" data-bgposition="center top" data-bgfit="cover"
-                            data-bgrepeat="no-repeat">
-                        <!-- LAYERS -->
-
-                        <!-- LAYER -->
-                        <div class="tp-caption sfb font-martel text-uppercase tp-resizeme"
-                            data-x="['left','left','left','left']" data-hoffset="['375','15','15','15']"
-                            data-y="['middle','middle','middle','top']" data-voffset="['-210','-180','-180','25']"
-                            data-fontsize="['24','24','24','18']" data-fontweight="['800','800','800','800']"
-                            data-lineheight="['24','24','24','24']" data-speed="500" data-start="500"
-                            data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.0"
-                            data-endelementdelay="0" data-endspeed="300" data-width="none" data-height="none"
-                            data-responsive_offset="on" data-whitespace="nowrap" style="z-index: 5; color:#fff;">Techmoto
-                        </div>
-
-                        <!-- LAYER -->
-                        <div class="tp-caption sfb font-martel text-white text-uppercase tp-resizeme"
-                            data-x="['left','left','left','left']" data-hoffset="['375','15','15','15']"
-                            data-y="['middle','middle','middle','top']" data-voffset="['-150','-130','-130','60']"
-                            data-fontsize="['50','50','40','30']" data-fontweight="['800','800','800','800']"
-                            data-lineheight="['24','24','24','24']" data-speed="500" data-start="750"
-                            data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.0"
-                            data-endelementdelay="0" data-endspeed="300" data-responsive_offset="on"
-                            data-whitespace="nowrap" style="z-index: 5; color: #fff;">Car Repair & Services</div>
-
-                        <!-- LAYER -->
-                        <div class="tp-caption sfb font-martel text-left tp-resizeme" data-x="['left','left','left','left']"
-                            data-hoffset="['375','15','15','15']" data-y="['middle','middle','middle','top']"
-                            data-voffset="['-80','-60','-40','100']" data-fontsize="['16','16','14','14']"
-                            data-fontweight="['400','400','400','400']" data-lineheight="['32','32','32','32']"
-                            data-speed="500" data-start="1000" data-easing="Power3.easeInOut" data-splitin="none"
-                            data-splitout="none" data-elementdelay="0.0" data-endelementdelay="0.0" data-endspeed="300"
-                            data-width="['900','800','600','400']" data-height="none" data-responsive_offset="on"
-                            data-whitespace="normal" style="z-index: 6; color:#fff; white-space: normal;"> Get mechanic
-                            services, anywhere! anytime! </div>
-
-                        <!-- LAYER -->
-                        <div class="tp-caption sfb font-martel text-left tp-resizeme" data-x="['left','left','left','left']"
-                            data-hoffset="['375','15','15','15']" data-y="['middle','middle','middle','bottom']"
-                            data-voffset="['40','60','90','100']" data-speed="500" data-start="1250"
-                            data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.0"
-                            data-endelementdelay="0.0" data-endspeed="300" data-responsive_offset="on"
-                            data-whitespace="nowrap" data-width="['500','500','400','300']" style="z-index: 3;"><img
-                                width="136" height="135" src="asset/images/slide-1-1.jpg" alt=""> <img
-                                width="136" height="135" class="margin-left-20" src="asset/images/slide-1-2.jpg"
-                                alt=""> <img width="136" height="135" class="margin-left-20"
-                                src="asset/images/slide-1-3.jpg" alt=""> </div>
-
-                        <!-- LAYER -->
-                        <div class="tp-caption sfb tp-resizeme" data-x="['left','left','left','left']"
-                            data-hoffset="['375','15','15','15']" data-y="['middle','middle','middle','bottom']"
-                            data-voffset="['170','170','190','25']" data-speed="500" data-start="1500"
-                            data-easing="Power3.easeInOut" data-width="none" data-height="none" data-splitin="none"
-                            data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300"
-                            data-whitespace="nowrap" data-responsive_offset="on" style="z-index: 7;"><a href="#."
-                                style="white-space: nowrap; display: inline-flex;" class="btn">Read More <span><i
-                                        class="ion-ios-arrow-thin-right"></i></span></a> </div>
-                    </li>
-
-                    <!-- SLIDE  -->
-                    <li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off"
-                        data-thumb="asset/images/safety2.jpeg">
-                        <!-- div IMAGE -->
-                        <img src="asset/images/safety2.jpeg" alt="slider" data-bgposition="center top"
-                            data-bgfit="cover" data-bgrepeat="no-repeat">
-                        <!-- LAYERS -->
-
-                        <!-- LAYER -->
-                        <div class="tp-caption sfb font-martel text-uppercase tp-resizeme"
-                            data-x="['left','left','left','left']" data-hoffset="['845','300','15','15']"
-                            data-y="['middle','middle','middle','top']" data-voffset="['-150','-100','-100','25']"
-                            data-fontsize="['24','24','24','18']" data-fontweight="['800','800','800','800']"
-                            data-lineheight="['24','24','24','24']" data-speed="500" data-start="500"
-                            data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none"
-                            data-elementdelay="0.0" data-endelementdelay="0" data-endspeed="300" data-width="none"
-                            data-height="none" data-responsive_offset="on" data-whitespace="nowrap"
-                            style="z-index: 5; font-size:24px; font-weight:800; color:#fff;">Techmoto </div>
-
-                        <!-- LAYER -->
-                        <div class="tp-caption sfb font-martel text-white text-uppercase tp-resizeme"
-                            data-x="['left','left','left','left']" data-hoffset="['845','300','15','15']"
-                            data-y="['middle','middle','middle','top']" data-voffset="['-80','-50','-50','60']"
-                            data-fontsize="['50','50','40','30']" data-fontweight="['800','800','800','800']"
-                            data-lineheight="['24','24','24','24']" data-speed="500" data-start="750"
-                            data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none"
-                            data-elementdelay="0.0" data-endelementdelay="0" data-endspeed="300"
-                            data-responsive_offset="on" data-whitespace="nowrap"
-                            style="z-index: 5; font-size:50px; font-weight:800; color:#fff;">Car Repair & Services</div>
-
-                        <!-- LAYER -->
-                        <div class="tp-caption sfb font-martel text-left tp-resizeme"
-                            data-x="['left','left','left','left']" data-hoffset="['845','300','15','15']"
-                            data-y="['middle','middle','middle','top']" data-voffset="['0','10','10','100']"
-                            data-fontsize="['16','16','14','14']" data-fontweight="['400','400','400','400']"
-                            data-lineheight="['32','32','32','32']" data-speed="500" data-start="1000"
-                            data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none"
-                            data-elementdelay="0.0" data-endelementdelay="0.0" data-endspeed="300"
-                            data-width="['900','800','620','400']" data-height="none" data-responsive_offset="on"
-                            data-whitespace="normal"
-                            style="z-index: 6; color:#fff; font-size:16px; font-weight:normal; line-height:32px;">Get
-                            mechanic services, anywhere! anytime! </div>
-
-                        <!-- LAYER -->
-                        <div class="tp-caption sfb tp-resizeme" data-x="['left','left','left','left']"
-                            data-hoffset="['845','300','15','15']" data-y="['middle','middle','middle','bottom']"
-                            data-voffset="['80','70','70','100']" data-speed="500" data-start="1250"
-                            data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none"
-                            data-elementdelay="0.0" data-endelementdelay="0.0" data-endspeed="300"
-                            data-responsive_offset="on" data-whitespace="nowrap" data-width="['500','500','400','300']"
-                            style="z-index: 7;"><a href="#." class="btn">Read More <span><i
-                                        class="ion-ios-arrow-thin-right"></i></span></a> </div>
-                    </li>
-
-                    <!-- SLIDE  -->
-                    <!--      <li data-transition="random" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" data-thumb="asset/images/safety1.jpeg"> -->
-                    <!-- div IMAGE -->
-                    <!--        <img src="asset/images/safety1.jpeg"  alt="slider"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> -->
-                    <!-- LAYERS -->
-
-                    <!-- LAYER -->
-                    <!--        <div class="tp-caption sfb font-martel text-uppercase tp-resizeme" -->
-                    <!--data-x="['left','left','left','left']" data-hoffset="['845','300','15','15']" -->
-                        <!--data-y="['middle','middle','middle','top']" data-voffset="['-150','-100','-100','25']" -->
-                            <!--data-fontsize="['24','24','24','18']"-->
-                                <!--data-fontweight="['800','800','800','800']"-->
-                                    <!--data-lineheight="['24','24','24','24']"-->
-                                        <!--            data-speed="500" -->
-                                        <!--            data-start="500"-->
-                                        <!--            data-easing="Power3.easeInOut" -->
-                                        <!--            data-splitin="none" -->
-                                        <!--            data-splitout="none" -->
-                                        <!--            data-elementdelay="0.0" -->
-                                        <!--            data-endelementdelay="0" -->
-                                        <!--            data-endspeed="300"-->
-                                        <!--data-width="none"-->
-                                            <!--data-height="none"-->
-                                                <!--data-responsive_offset="on" -->
-                                                    <!--data-whitespace="nowrap" -->
-                                                        <!--            style="z-index: 5; font-size:24px; font-weight:800; color:#fff;">Techmoto</div>-->
-
-                                                        <!-- LAYER -->
-                                                        <!--        <div class="tp-caption sfb font-martel text-white text-uppercase tp-resizeme" -->
-                                                        <!--            data-x="['left','left','left','left']" data-hoffset="['845','300','15','15']" -->
-                                                        <!--data-y="['middle','middle','middle','top']"
-                                                            data-voffset="['-80','-50','-50','60']" -->
-                                                            <!--data-fontsize="['50','50','40','30']"-->
-                                                                <!--data-fontweight="['800','800','800','800']"-->
-                                                                    <!--data-lineheight="['24','24','24','24']"-->
-                                                                        <!--            data-speed="500" -->
-                                                                        <!--            data-start="750" -->
-                                                                        <!--            data-easing="Power3.easeInOut" -->
-                                                                        <!--            data-splitin="none" -->
-                                                                        <!--            data-splitout="none" -->
-                                                                        <!--            data-elementdelay="0.0" -->
-                                                                        <!--            data-endelementdelay="0" -->
-                                                                        <!--            data-endspeed="300"-->
-                                                                        <!--data-responsive_offset="on" -->
-                                                                            <!--data-whitespace="nowrap" -->
-                                                                                <!--            style="z-index: 5; font-size:50px; font-weight:800; color:#fff;">Car Repair & Services</div>-->
-
-                                                                                <!-- LAYER -->
-                                                                                <!--        <div class="tp-caption sfb font-martel text-left tp-resizeme" -->
-                                                                                <!--            data-x="['left','left','left','left']" data-hoffset="['845','300','15','15']" -->
-                                                                                <!--data-y="['middle','middle','middle','top']"
-                                                                                    data-voffset="['0','10','10','100']"
-                                                                                    -->
-                                                                                    <!--data-fontsize="['16','16','14','14']"-->
-                                                                                        <!--data-fontweight="['400','400','400','400']"-->
-                                                                                            <!--data-lineheight="['32','32','32','32']"-->
-                                                                                                <!--            data-speed="500" -->
-                                                                                                <!--            data-start="1000" -->
-                                                                                                <!--            data-easing="Power3.easeInOut" -->
-                                                                                                <!--            data-splitin="none" -->
-                                                                                                <!--            data-splitout="none" -->
-                                                                                                <!--            data-elementdelay="0.0" -->
-                                                                                                <!--            data-endelementdelay="0.0" -->
-                                                                                                <!--            data-endspeed="300" -->
-                                                                                                <!--data-width="['900','800','620','400']"-->
-                                                                                                    <!--data-height="none"-->
-                                                                                                        <!--data-responsive_offset="on"
-                                                                                                            -->
-                                                                                                            <!--data-whitespace="normal"
-                                                                                                                -->
-                                                                                                                <!--            style="z-index: 6; color:#fff; font-size:16px; font-weight:normal; line-height:32px;">The Love Boat promises something for everyone. Now the world don't move to the beat of<br> What might be right for you may not be right for some. </div>-->
-
-                                                                                                                <!-- LAYER -->
-                                                                                                                <!--        <div class="tp-caption sfb tp-resizeme" -->
-                                                                                                                <!--            data-x="['left','left','left','left']" data-hoffset="['845','300','15','15']" -->
-                                                                                                                <!--data-y="['middle','middle','middle','bottom']"
-                                                                                                                    data-voffset="['80','70','70','100']"
-                                                                                                                    -->
-                                                                                                                    <!--            data-speed="500"-->
-                                                                                                                    <!--            data-start="1250"-->
-                                                                                                                    <!--            data-easing="Power3.easeInOut" -->
-                                                                                                                    <!--            data-splitin="none"-->
-                                                                                                                    <!--            data-splitout="none"-->
-                                                                                                                    <!--            data-elementdelay="0.0"-->
-                                                                                                                    <!--            data-endelementdelay="0.0"-->
-                                                                                                                    <!--            data-endspeed="300" -->
-                                                                                                                    <!--data-responsive_offset="on"
-                                                                                                                        -->
-                                                                                                                        <!--data-whitespace="nowrap"-->
-                                                                                                                            <!--data-width="['500','500','400','300']"
-                                                                                                                                -->
-                                                                                                                                <!--            style="z-index: 7;"><a href="#." class="btn">Read More <span><i class="ion-ios-arrow-thin-right"></i></span></a> </div>-->
-                                                                                                                                <!--      </li>-->
-
-                </ul>
-            </div>
-        </div>
+<div class="home-slider section">
+    <!-- Slider Loader -->
+    <div id="loader" class="hom-slie">
+        <div class="tp-loader spinner0"> <span class="dot1"></span> <span class="dot2"></span> <span
+                class="bounce1"></span> <span class="bounce2"></span> <span class="bounce3"></span> </div>
     </div>
 
-<div id="content">
+    <!-- SLIDE Start -->
+    <div class="tp-banner-container">
+        <div class="tp-banner">
+            <ul>
+
+                <!-- SLIDE  -->
+                <li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off"
+                    data-thumb="asset/images/1.png">
+                    <!-- div IMAGE -->
+                    <img src="asset/images/1.png" alt="slider" data-bgposition="center top" data-bgfit="cover"
+                        data-bgrepeat="no-repeat">
+
+                </li>
+
+                <!-- SLIDE  -->
+                <li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off"
+                    data-thumb="asset/images/2.png">
+                    <!-- div IMAGE -->
+                    <img src="asset/images/2.png" alt="slider" data-bgposition="center top" data-bgfit="cover"
+                        data-bgrepeat="no-repeat">
+
+                </li>
+
+                <li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off"
+                    data-thumb="asset/images/3.png">
+                    <!-- div IMAGE -->
+                    <img src="asset/images/3.png" alt="slider" data-bgposition="center top" data-bgfit="cover"
+                        data-bgrepeat="no-repeat">
+
+                </li>
+
+                <li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off"
+                    data-thumb="asset/images/4.png">
+                    <!-- div IMAGE -->
+                    <img src="asset/images/4.png" alt="slider" data-bgposition="center top" data-bgfit="cover"
+                        data-bgrepeat="no-repeat">
+
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+   <div class="form-data">
+    <div class="card">
+        <div class="col-lg-4">
+            <form class="">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+        
+                <input type="submit" value="Log In">
+            </form>
+        </div>
+    </div>
+   </div>
+    
+
+    <div id="content">
 
         <div class="padding-top-100 padding-bottom-80">
             <div class="container">
@@ -251,8 +89,7 @@
                         <!-- Wheel Alignments -->
                         <li class="col-md-4 col-sm-6 col-xs-6">
                             <article>
-                                <div class="ser-img"> <img class="img-responsive" src="asset/images/servic-img-1.jpg"
-                                        alt="">
+                                <div class="ser-img"> <img class="img-responsive" src="asset/images/a.png" alt="">
 
                                     <!-- Head -->
                                     <div class="ser-head">
@@ -272,8 +109,7 @@
                         <!-- Suspension Repair -->
                         <li class="col-md-4 col-sm-6 col-xs-6">
                             <article>
-                                <div class="ser-img"> <img class="img-responsive" src="asset/images/servic-img-2.jpg"
-                                        alt="">
+                                <div class="ser-img"> <img class="img-responsive" src="asset/images/b.png" alt="">
 
                                     <!-- Head -->
                                     <div class="ser-head">
@@ -293,8 +129,7 @@
                         <!-- Engine Overhaul -->
                         <li class="col-md-4 col-sm-6 col-xs-6">
                             <article>
-                                <div class="ser-img"> <img class="img-responsive" src="asset/images/servic-img-3.jpg"
-                                        alt="">
+                                <div class="ser-img"> <img class="img-responsive" src="asset/images/c.png" alt="">
 
                                     <!-- Head -->
                                     <div class="ser-head">
@@ -326,7 +161,7 @@
             </div>
             <div class="offers-tabs">
                 <div class="row no-margin">
-                    <div class="col-md-6 no-padding"> <img class="img-responsive" src="asset/images/offer-img.jpg"
+                    <div class="col-md-6 no-padding"> <img class="img-responsive" src="asset/images/service.png"
                             alt="">
                         <div class="position-center-center col-xs-12 no-padding">
                             <ul class="nav nav-pills nav-stacked" role="tablist">
@@ -438,9 +273,9 @@
             </div>
         </div>
 
-  
 
-   
+
+
         <div class="testimonial padding-top-100 padding-bottom-100">
             <div class="container">
                 <div class="row">

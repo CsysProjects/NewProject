@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- SUB BANNER -->
-    <div class="sub-bnr">
+    <div class="sub-bnr-about">
         <div class="position-center-center" style="left: 50%">
             <div class="container"> <img src="asset/images/sub-bnr-hr-up.png" alt="">
                 <h4>About Us</h4>

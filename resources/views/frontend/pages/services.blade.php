@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('content')
-    <div class="sub-bnr">
+    <div class="sub-bnr-services">
         <div class="position-center-center" style="left: 50%">
             <div class="container"> <img src="asset/images/sub-bnr-hr-up-services.png" alt="">
                 <h4>Our Services</h4>
