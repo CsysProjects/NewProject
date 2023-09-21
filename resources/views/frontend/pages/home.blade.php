@@ -4,71 +4,70 @@
 
 
 @section('content')
-<div class="home-slider section">
-    <!-- Slider Loader -->
-    <div id="loader" class="hom-slie">
-        <div class="tp-loader spinner0"> <span class="dot1"></span> <span class="dot2"></span> <span
-                class="bounce1"></span> <span class="bounce2"></span> <span class="bounce3"></span> </div>
-    </div>
+    <div class="home-slider section">
+        <!-- Slider Loader -->
+        <div id="loader" class="hom-slie">
+            <div class="tp-loader spinner0"> <span class="dot1"></span> <span class="dot2"></span> <span
+                    class="bounce1"></span> <span class="bounce2"></span> <span class="bounce3"></span> </div>
+        </div>
 
-    <!-- SLIDE Start -->
-    <div class="tp-banner-container">
-        <div class="tp-banner">
-            <ul>
+        <!-- SLIDE Start -->
+        <div class="tp-banner-container">
+            <div class="tp-banner">
+                <ul>
 
-                <!-- SLIDE  -->
-                <li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off"
-                    data-thumb="asset/images/1.png">
-                    <!-- div IMAGE -->
-                    <img src="asset/images/1.png" alt="slider" data-bgposition="center top" data-bgfit="cover"
-                        data-bgrepeat="no-repeat">
+                    <!-- SLIDE  -->
+                    <li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off"
+                        data-thumb="asset/images/1.png">
+                        <!-- div IMAGE -->
+                        <img src="asset/images/1.png" alt="slider" data-bgposition="center top" data-bgfit="cover"
+                            data-bgrepeat="no-repeat">
 
-                </li>
+                    </li>
 
-                <!-- SLIDE  -->
-                <li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off"
-                    data-thumb="asset/images/2.png">
-                    <!-- div IMAGE -->
-                    <img src="asset/images/2.png" alt="slider" data-bgposition="center top" data-bgfit="cover"
-                        data-bgrepeat="no-repeat">
+                    <!-- SLIDE  -->
+                    <li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off"
+                        data-thumb="asset/images/2.png">
+                        <!-- div IMAGE -->
+                        <img src="asset/images/2.png" alt="slider" data-bgposition="center top" data-bgfit="cover"
+                            data-bgrepeat="no-repeat">
 
-                </li>
+                    </li>
 
-                <li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off"
-                    data-thumb="asset/images/3.png">
-                    <!-- div IMAGE -->
-                    <img src="asset/images/3.png" alt="slider" data-bgposition="center top" data-bgfit="cover"
-                        data-bgrepeat="no-repeat">
+                    <li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off"
+                        data-thumb="asset/images/3.png">
+                        <!-- div IMAGE -->
+                        <img src="asset/images/3.png" alt="slider" data-bgposition="center top" data-bgfit="cover"
+                            data-bgrepeat="no-repeat">
 
-                </li>
+                    </li>
 
-                <li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off"
-                    data-thumb="asset/images/4.png">
-                    <!-- div IMAGE -->
-                    <img src="asset/images/4.png" alt="slider" data-bgposition="center top" data-bgfit="cover"
-                        data-bgrepeat="no-repeat">
+                    <li data-transition="random" data-slotamount="7" data-masterspeed="300" data-saveperformance="off"
+                        data-thumb="asset/images/4.png">
+                        <!-- div IMAGE -->
+                        <img src="asset/images/4.png" alt="slider" data-bgposition="center top" data-bgfit="cover"
+                            data-bgrepeat="no-repeat">
 
-                </li>
-            </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
-</div>
-   <div class="form-data">
-    <div class="card">
-        <div class="col-lg-4">
-            <form class="">
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" required>
-        
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-        
-                <input type="submit" value="Log In">
-            </form>
+    <div class="form-data">
+        <div class="card">
+            
+                <div className="main__cta__text">
+                    <h2>Rent a Service now</h2>
+                    <input type="text" placeholder="Enter the Service" />
+                    <input type="text" placeholder="Enter the location" />
+                    <div className="selectbutton">
+                        <button className="btn btn-dark">Rent now</button>
+                    </div>
+                </div>
+            
         </div>
     </div>
-   </div>
-    
+
 
     <div id="content">
 
@@ -129,7 +128,8 @@
                         <!-- Engine Overhaul -->
                         <li class="col-md-4 col-sm-6 col-xs-6">
                             <article>
-                                <div class="ser-img"> <img class="img-responsive" src="asset/images/c.png" alt="">
+                                <div class="ser-img"> <img class="img-responsive" src="asset/images/c.png"
+                                        alt="">
 
                                     <!-- Head -->
                                     <div class="ser-head">
