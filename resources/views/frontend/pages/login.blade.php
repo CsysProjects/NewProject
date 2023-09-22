@@ -3,74 +3,58 @@
 @section('title', 'Login')
 
 @section('content')
+    <div class="sub-bnr-contact">
+        <div class="position-center-center " style="left: 50%">
+            <div class="container"> <img src="asset/images/sub-bnr-hr-up-contact.png" alt="">
+                <h4>Login to your account</h4>
+                <ol class="breadcrumb">
+                    <li><a href="#">Home</a></li>
+                    <li class="active">Login</li>
+                </ol>
+                <img src="asset/images/sub-bnr-hr.png" alt="">
+            </div>
+        </div>
+    </div>
+
     <div id="content">
         <div class="contact-page padding-top-0">
-
-            <!-- CONTACT FORM -->
             <div class="container">
-                <div class="row margin-top-100 margin-bottom-100">
-                    <div class="col-md-8 col-sm-6 col-xs-12">
+                <div class="col-lg-5 login-data">
 
-                        <!-- Heading -->
-                        <div class="heading text-left">
-                            <p> We'll get back to you soon </p>
-                        </div>
-                        <div class="contact-form">
-                            <!-- Form  -->
-                            <div class="margin-top-30">
-                                <div class="contact-form">
-
-                                    <!-- Success Msg -->
-                                    <div id="contact_message" class="success-msg"> <i class="fa fa-paper-plane-o"></i>Thank
-                                        You. Your Message has been Submitted</div>
-
-                                    <!-- FORM -->
-                                    <form id="contact_form" class="contact-form" method="post" onSubmit="return false">
-                                        <ul class="row">
-                                            <li class="col-md-6 col-sm-12 col-xs-12">
-                                                <label>
-                                                    <input type="text" class="form-control" name="name" id="name"
-                                                        placeholder="Your Name">
-                                                </label>
-                                            </li>
-                                            <li class="col-md-6 col-sm-12 col-xs-12">
-                                                <label>
-                                                    <input type="text" class="form-control" name="email" id="email"
-                                                        placeholder="E-Mail">
-                                                </label>
-                                            </li>
-                                            <li class="col-md-6 col-sm-12 col-xs-12">
-                                                <label>
-                                                    <input type="text" class="form-control" name="company" id="company"
-                                                        placeholder="Phone">
-                                                </label>
-                                            </li>
-                                            <li class="col-md-6 col-sm-12 col-xs-12">
-                                                <label>
-                                                    <input type="text" class="form-control" name="website" id="website"
-                                                        placeholder="Subject">
-                                                </label>
-                                            </li>
-                                            <li class="col-md-12 col-sm-12 col-xs-12">
-                                                <label>
-                                                    <textarea class="form-control" name="message" id="message" rows="5" placeholder="Your Message"></textarea>
-                                                </label>
-                                            </li>
-                                            <li class="col-md-12 col-sm-12 col-xs-12">
-                                                <button type="submit" value="submit" class="btn" id="btn_submit"
-                                                    onClick="proceed();">send Message <span><i
-                                                            class="ion-ios-arrow-thin-right"></i></span></button>
-                                            </li>
-                                        </ul>
-                                    </form>
-                                </div>
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <p>Login to your account
+                                </p>
                             </div>
+                            <hr class="border-top" />
+                            <div class="container-fluid">
+                                <form id="contact_form" class="rental-form" method="post">
+                                    <div class="mb-3">
+                                        <label for="Email" class="form-label">Email</label>
+                                        <input type="text" class="form-control" id="Email" name="Email"
+                                            placeholder="Enter your Email" value="" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="password" class="form-label">password</label>
+                                        <input type="text" class="form-control" id="password" name="password"
+                                            placeholder="Enter your password" value="" required>
+                                    </div>
+                                    <!-- Buttons within the form -->
+                                    <div class="row ">
+                                        <button type="submit" class="btn-request">Login</button>
+                                    </div>
+                            </div>
+                            </form>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
 
+
+
 @endsection
+
+</div>

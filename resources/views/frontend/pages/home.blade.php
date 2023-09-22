@@ -53,19 +53,45 @@
             </div>
         </div>
     </div>
-    <div class="form-data">
-        <div class="card">
-            
-                <div className="main__cta__text">
-                    <h2>Rent a Service now</h2>
-                    <input type="text" placeholder="Enter the Service" />
-                    <input type="text" placeholder="Enter the location" />
-                    <div className="selectbutton">
-                        <button className="btn btn-dark">Rent now</button>
-                    </div>
+    <div class="col-lg-4 form-data">
+        <div class="card bg-light">
+            <div class="card-body">
+                <div class="card-title">
+                    <p class="icon-text">
+                    <i class="ion-ios-bolt icon"></i>
+                    <span>Get a mechanic, anytime! anywhere! </span>
+                    </p>
                 </div>
-            
+                <hr class="border-top" />
+                <div class="container-fluid container-request">
+                    <h3>Request a Service Now!</h3>
+                </div>
+                <div class="container-fluid">
+                    <form  id="contact_form" class="rental-form" method="post">
+                        <div class="mb-3">
+                            <label for="service" class="form-label">Service</label>
+                            <input type="text" class="form-control" id="service" name="service" 
+                                placeholder="Enter your service" value="" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="location" class="form-label">Location</label>
+                            <input type="text" class="form-control" id="location" name="location"
+                                placeholder="Enter your location" value="" required>
+                        </div>
+                        <!-- Buttons within the form -->
+                        <div class="row rent-button">
+                            <div class="col">
+                                <button type="submit" class="btn-request">Request now</button>
+                            </div>
+                            <div class="col">
+                                <button type="submit" class="btn-schedule">Schedule for later</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
+
     </div>
 
 
@@ -108,7 +134,8 @@
                         <!-- Suspension Repair -->
                         <li class="col-md-4 col-sm-6 col-xs-6">
                             <article>
-                                <div class="ser-img"> <img class="img-responsive" src="asset/images/b.png" alt="">
+                                <div class="ser-img"> <img class="img-responsive" src="asset/images/b.png"
+                                        alt="">
 
                                     <!-- Head -->
                                     <div class="ser-head">
