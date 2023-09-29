@@ -7,7 +7,7 @@
             <div class="container"> <img src="asset/images/sub-bnr-hr-up.png" alt="">
                 <h4>About Us</h4>
                 <ol class="breadcrumb">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="/">Home</a></li>
                     <li class="active">About</li>
                 </ol>
                 <img src="asset/images/sub-bnr-hr.png" alt="">

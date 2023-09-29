@@ -405,10 +405,10 @@ header {
     position: relative;
     width: 100%;
     z-index: 9999;
-    background: #fff;
+     background: #36404b url(../images/footer-bg.png) center center no-repeat;
 }
 header .navbar {
-    background: #36404b;
+    background: #36404b url(../images/footer-bg.png) center center no-repeat;
     border: none;
     margin: 0px;
     padding: 0px;
@@ -416,6 +416,7 @@ header .navbar {
     text-align: center;
     width: 100%;
     float: left;
+    opacity:0.99;
 }
 
 header .logo {
@@ -492,6 +493,7 @@ header .quotes a {
     display: inline-block;
 }
 header .quotes a:hover {
+    text-decoration-line: none;
     background: #000;
     color: #fff;
 }
@@ -848,7 +850,48 @@ header .quotes a:hover {
     color: #36404B;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+.toggle-data, .container-request{display: block;}
 
+.tp-banner ul li img{height: 100vh!important;}
+
+/* Media query for smaller screens (mobile view) */
+@media (max-width: 768px) {
+    
+   .form-data{
+       margin-left: auto;
+       margin-right: auto;
+       display: block;
+       height: auto;
+       width: 80% !important;
+       top: -13rem;
+       left: 1rem;
+   }
+   .container-request{display: none;}
+   .toggle-data{display: none;}
+   .button-click {
+        flex-direction: column;
+    }
+   .row-margin{padding:20px;}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+   .form-data{
+       margin: 0px 0px;
+       width: 50% !important;
+       top: 2rem;
+       left: 3rem;
+   }
+   /*.row-margin{margin-left: 0px;margin-right: 0px;}*/
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .row-margin{padding:20px;}
+   .form-data{
+       margin: 0px 0px;
+       width: 60% !important;
+       top: 3rem;
+       left: 3rem;
+   }
+   .row-margin{margin-left: 0px;margin-right: 0px;}
+}
 .form-data .btn-request{
     outline: none;
     box-shadow: none;
@@ -886,17 +929,12 @@ header .quotes a:hover {
     transition-duration: 200ms;
     transition-timing-function: cubic-bezier(0, 0, 1, 1);
     cursor: pointer;
-    margin-top: 12px;
-    margin-right: 0;
-    margin-bottom: 0;
+    margin:12px 0 0 5px;
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
     border-radius: 4px;
-    padding-top: 10px;
-    padding-bottom: 12px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding:10px 25px 12px 25px;
     color: #FFFFFF;
     border: none!important;
     background-color:#ffa500;
@@ -1956,7 +1994,7 @@ footer {
     padding: 0;
     background: #36404b url(../images/footer-bg.png) center center no-repeat;
     padding-bottom: 60px;
-    margin-top: 60px;
+    /*margin-top: 60px;*/
 }
 footer h5 {
     color: #fff;
@@ -2163,7 +2201,8 @@ footer .social_icons a {
     font-size: 13px;
 }
 .footer-info .links li a:hover {
-    color: #e4454b;
+    text-decoration-line: none;
+    color: #ffa500;
 }
 .footer-info .quote .form-control {
     background: none;
@@ -2239,6 +2278,11 @@ footer .social_icons a {
 ========================================================*/
 .contact-page #map {
     height: 600px;
+}
+.login-page{
+     background: url(../images/loginback.png) center center no-repeat;
+    background-size: cover;
+    padding:100px;
 }
 .contact-form .error {
     border: 1px solid red;
@@ -2350,7 +2394,7 @@ footer .social_icons a {
 }
 
 .rental-form label {
-    padding-left: 21px;
+    /*padding-left: 21px;*/
     display: inline-block;
     width: 100%;
     font-weight: normal;
@@ -2364,12 +2408,12 @@ footer .social_icons a {
 }
 
 .rental-form input {
-    margin: 0px 0px 26px 20px;
+    margin: 0px 0px 15px 0px;
     border: none;
     height: 45px;
     padding: 0 20px;
     border-radius: 0px;
-    width: 90%;
+    width: 100%;
     background: #f6f6f6;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
@@ -3223,12 +3267,13 @@ footer .social_icons a {
 }
 
 .login-data{
-    margin: 95px 0px 95px 280px;
+    width:37%!important;
+    margin: 0 auto;
     background-color: #fff;
     padding: 20px; /* Add padding for content spacing */
     border-radius: 20px;
     color: #36404B;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .login-data .card-title p{
@@ -3246,7 +3291,7 @@ footer .social_icons a {
     transition-timing-function: cubic-bezier(0, 0, 1, 1);
     cursor: pointer;
     margin-left: 22px;
-    margin-top: 12px;
+    margin-top: 6px;
     margin-right: 0;
     margin-bottom: 0;
     font-size: 14px;
