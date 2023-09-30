@@ -14,9 +14,11 @@
         </div>
         <div class="content bg-light p-4 rounded">
           <div class="add-category text-end">
-            <button class="btn btn-primary">
-              Add Sub-category
-            </button>
+            <div class="add-category text-end">
+              <a class="btn btn-primary" href="{{ URL::to('admin/add-subcategory') }}">
+                Add sub-category
+            </a>
+            </div>
           </div>
           <div class="">
             <div class="search-element">

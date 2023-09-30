@@ -40,4 +40,14 @@ Route::view('admin/payment','frontend.adminpanel.payment.index');
 Route::view('admin/transactions','frontend.adminpanel.transactions.index');
 Route::view('admin/user','frontend.adminpanel.user.index');
 Route::view('admin/system','frontend.adminpanel.system.index');
+Route::view('admin/add-category', 'frontend.adminpanel.category.create');
+Route::view('admin/add-subcategory', 'frontend.adminpanel.subcategory.create');
+
+
+// userpanel //
+
+Route::view('user', 'frontend.userpanel.user');
+Route::view('bookings', 'frontend.userpanel.bookings');
+
+
 

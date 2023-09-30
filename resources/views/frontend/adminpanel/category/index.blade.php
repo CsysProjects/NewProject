@@ -14,7 +14,7 @@
   </div>
   <div class="content bg-light p-4 rounded">
     <div class="add-category text-end">
-      <a class="btn btn-primary" href="#">
+      <a class="btn btn-primary" href="{{ URL::to('admin/add-category') }}">
         Add category
     </a>
     </div>

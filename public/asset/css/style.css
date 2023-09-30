@@ -1716,7 +1716,7 @@ header .quotes a:hover {
 }
 .clients-img li {
     text-align: center;
-    width: 33.36404B%;
+    width: 33.33%;
     float: left;
     padding: 45px 20px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
@@ -2277,7 +2277,7 @@ footer .social_icons a {
 			CONTACT FORM
 ========================================================*/
 .contact-page #map {
-    height: 600px;
+    height: 625px;
 }
 .login-page{
      background: url(../images/loginback.png) center center no-repeat;
@@ -2644,7 +2644,7 @@ footer .social_icons a {
 }
 .comments .media h6 {
     font-weight: 400;
-    color: #36404B36404B;
+    color: #36404B;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 16px;
@@ -2904,7 +2904,7 @@ footer .social_icons a {
     font-weight: normal;
     margin-bottom: 20px;
     margin-top: 50px;
-    color: #36404B36404B;
+    color: #36404B;
     font-weight: 600;
 }
 .side-bar hr {
@@ -3195,7 +3195,7 @@ footer .social_icons a {
     padding: 0px;
     float: left;
     border: none;
-    width: 33.36404B3%;
+    width: 33.33%;
 }
 #tabs .nav-tabs > li a {
     border: none;
@@ -3325,3 +3325,112 @@ footer .social_icons a {
 .login-data .container-request {
     margin: 30px 0 30px 0;
 }
+
+.userpanel-data{
+    width: 100% !important;;
+    margin: 0px 0px 20px 0px;
+    background-color: #fff;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    color: #36404B;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+}
+
+.userpanel-data .btn-request{
+    outline: none;
+    box-shadow: none;
+    text-decoration: none;
+    transition-duration: 200ms;
+    transition-timing-function: cubic-bezier(0, 0, 1, 1);
+    cursor: pointer;
+    /* margin-left: 22px; */
+    margin-top: 12px;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: #FFFFFF;
+    border: none!important;
+    background-color: #36404b;
+}
+
+.userpanel-data .btn-request:hover {
+    color: #fff;
+    background: #36404B;
+    opacity: 0.8;
+}
+
+.userpanel-data .btn-schedule{
+    outline: none;
+    box-shadow: none;
+    text-decoration: none;
+    transition-duration: 200ms;
+    transition-timing-function: cubic-bezier(0, 0, 1, 1);
+    cursor: pointer;
+    margin:12px 0 0 5px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    border-radius: 4px;
+    padding:10px 25px 12px 25px;
+    color: #FFFFFF;
+    border: none!important;
+    background-color:#ffa500;
+}
+
+.userpanel-data .btn-schedule:hover {
+    color: #fff;
+    background: #ffa500;
+    opacity: 0.8;
+}
+.userpanel-data .container-request h3{
+    margin: 10px 0 10px 0;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: none;
+
+}
+
+.userpanel-data .container-request {
+    margin: 30px 0 30px 0;
+}
+
+.userpanel-data .icon-text {
+    display: flex; /* Use flexbox to create a row layout */
+    align-items: center; /* Vertically align items in the center */
+    text-transform: none!important;
+    padding: 10px 0px 0px 10px;
+    color: #ffa500;
+    font-size: 15px;
+}
+
+.userpanel-data .icon {
+    margin-right: 10px; /* Add some spacing between the icon and text */
+    color: #36404B;
+    font-size:large;
+}
+
+.userpanel-data .rent-button {
+    display: flex; 
+    margin-top: 25px;
+    margin-bottom: 20px; 
+}
+
+.userpanel-data .rent-button .col {
+    margin-right: 3px;
+    margin-left: 12px;
+}
+
+.block-content{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 15px;
+    border-radius: 5px;
+}
+
+

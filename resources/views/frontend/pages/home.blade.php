@@ -67,7 +67,7 @@
                     <h3>Request a Service Now!</h3>
                 </div>
                 <div class="container-fluid">
-                    <form  id="contact_form" class="rental-form" method="post">
+                    <form  id="contact_form" class="rental-form">
                         <div class="mb-3">
                             <label for="service" class="form-label">Service</label>
                             <input type="text" class="form-control" id="service" name="service" 
@@ -81,10 +81,10 @@
                         <!-- Buttons within the form -->
                         <div class="row rent-button">
                             <div class="col">
-                                <button type="submit" class="btn-request">Request now</button>
+                                <a href="/user" class="btn-request">Request now</a>
                             </div>
                             <div class="col">
-                                <button type="submit" class="btn-schedule">Schedule for later</button>
+                                <a href="/schedule" class="btn-schedule">Schedule for later</a>
                             </div>
                         </div>
                     </form>

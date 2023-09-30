@@ -294,3 +294,71 @@ input:focus {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+
+
+.login-data{
+  width:100%!important;
+  /* margin: 0 auto; */
+  background-color: #fff;
+  padding: 60px 20px 20px 20px; /* Add padding for content spacing */
+  color: #36404B;
+}
+
+.rental-form label {
+  /*padding-left: 21px;*/
+  display: inline-block;
+  width: 100%;
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 7px;
+  color: #36404B;
+}
+.rental-form label::after {
+  content: " *"; /* Add an asterisk after every label */
+  color: red; /* Change the color to red or any other color you prefer */
+}
+
+.rental-form input {
+  margin: 0px 0px 25px 0px;
+  border: 1px solid #e1e1e1;
+  height: 45px;
+  padding: 0 20px;
+  border-radius: 0px;
+  width: 100%;
+  background: #f6f6f6;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.rental-form select {
+  margin: 0px 0px 25px 0px;
+  border: 1px solid #e1e1e1;
+  height: 45px;
+  padding: 0 20px;
+  border-radius: 0px;
+  width: 100%;
+  background: #f6f6f6;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.rental-form textarea {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  padding: 10px 20px;
+  border: 1px solid #ececec;
+  height: 150px;
+  border-radius: 0px;
+  background: #fff;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
